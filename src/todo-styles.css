@@ -1,0 +1,67 @@
+body {
+    background-color: #B9B6F6;
+}
+
+.todo-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 600px;
+    background-color: white;
+    margin: 0 auto;
+    width: 400px;
+}
+
+.todo-container input {
+    border: 3px solid yellow;
+    padding: 2px 5px;
+    outline: none;
+}
+
+.todo-container > div {
+    margin-bottom: 10px;
+}
+
+.todo-container button {
+    padding: 5px 10px;
+    font-size: 14px;
+    cursor: pointer;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    margin-left: 5px;
+    letter-spacing: 1px;
+}
+
+.todo-container .inputId {
+    width: 25px;
+}
+
+.all-todos {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+}
+
+.todo-container span {
+    cursor: pointer;
+}
+
+.todo-container span:hover {
+    text-decoration: underline;
+}
+
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: #3498db;
+}
+
+.blue:hover {
+    background-color: #2980b9;
+}
